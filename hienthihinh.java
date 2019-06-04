@@ -23,18 +23,21 @@ public class hienthihinh {
                 case 2:
                     for (i = 6; i >= 1; i--) {
                         for (j = 1; j < i; j++) {
-                            System.out.println("*");
+                            System.out.print("*");
                         }
-                        System.out.println("\n");
+                        System.out.print("\n");
                     }
                     break;
                 case 3:
                     for (i = 7; i >= 1; i--) {
                         for (j = 1; j <= i; j++) {
-                            System.out.println("*");
+                            System.out.print("*");
                         }
                         System.out.println("\n");
                     }
+                    break;
+                case 4:
+                    System.exit(0);
             }
         }
     }
